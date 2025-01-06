@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 from sklearn.datasets import load_iris
 
-model = joblib.load('model.joblib')
+model = joblib.load('./model.joblib')
 
 st.title('Iris Species Prediction')
 st.write('Predicting the species of Iris using Random Forest Model')
